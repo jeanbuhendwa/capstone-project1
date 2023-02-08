@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This links to the styles.css file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- This links to font icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>JSCamp</title>
+  </head>
+  <body>
+    <!-- The navigation header and menu -->
+    <header>
+      <div class="links-bar">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <nav id="nav-menu">
+        <div class="logo">
+          <a id="logo" href="index.html">JS<span id="logoSpan">Camp</span></a>
+        </div>
+        <ul class="list-menu" id="list-menu">
+          <li class="menu-item"><a href="pages/about.html">About</a></li>
+          <li class="menu-item"><a href="#">Program</a></li>
+          <li class="menu-item"><a href="#">Speakers</a></li>
+          <li class="menu-item"><a href="#">Partner</a></li>
+          <li class="menu-item join-btn"><a href="#">Join Us</a></li>
+          <button class="button-close" id="close-btn">&times;</button>
+        </ul>
+        <button class="menu-btn" id="menu-btn">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </nav>
+    </header>
+    <section class="headline-section">
+      <span id="hello-text">"Hello, Sharing World!</span>
+      <h1 class="h1-text">
+        JAVASCRIPT CAMP KPLA UGANDA <br />
+        2023
+      </h1>
+      <p class="headline-p">
+        Unleash Your Web Development Potential: Join the Javascript Camp Today!
+        <br />
+        Community of Like-Minded Coders and Get Inspired to Create and Innovate
+      </p>
+      <h3 class="headline-date">2023.03.24(FRI) - 25(SAT)</h3>
+      <p class="h-address">@Hive Collab Innovation Hub | Kampala</p>
+    </section>
+    <section class="program-section">
+      <div class="text-container">
+        <h3>Main Program</h3>
+        <hr />
+      </div>
+      <div class="program-container">
+        <div class="program-list">
+          <img src="Assets/illustration/teamup.svg" alt="Team Up" id="team-svg"/>
+          <h4>Team Up</h4>
+          <p>
+            During this session, participants will be divided into small groups, each with a project to work on.
+          </p>
+        </div>
+        <div class="program-list">
+          <img src="Assets/illustration/exhibition.svg" alt="Team Up" />
+          <h4>Exhibition</h4>
+          <p>
+            Appreciate various creations applying CC license of artists, organized from Art Center Nabi.
+          </p>
+        </div>
+        <div class="program-list">
+          <img src="Assets/illustration/forum.svg" alt="Team Up" />
+          <h4>Forum</h4>
+          <p>
+            Have the time to share your thoughts and opinions with experts for each topic.
+          </p>
+        </div>
+        <div class="program-list">
+          <img src="Assets/illustration/lunch.svg" alt="Team Up" />
+          <h4>Lunch</h4>
+          <p>
+            Grab a bite to eat, network with others, and recharge for the afternoon sessions.
+          </p>
+        </div>
+        <div class="program-list">
+          <img src="Assets/illustration/workshop.svg" alt="Team Up" />
+          <h4>WorkShop</h4>
+          <p>
+            Try creating your own work using open source license rather than just watching at it.
+          </p>
+        </div>
+      </div>
+      <div class="join-btn-container">
+        <a href="#">
+          <button>Join Us Today</button>
+        </a>
+      </div>
+      <div class="join-link-container">
+        <a href="#">SEE THE WHOLE PROGRAM</a>
+      </div>
+    </section>
+    <section class="speaker-section">
+      <div class="text-container">
+        <h3>Featured Speakers</h3>
+        <hr />
+      </div>
+      <div class="speaker-grid" id="speaker-container">
+        <!-- Speaker list Will appear here -->
+      </div>
+
+      <div class="more-btn-container">
+        <!-- <a href="#"> -->
+          <button onclick="loadMore()" id="loadBtn">
+            <span>MORE</span><i class="fa fa-angle-down" aria-hidden="true"></i>
+          </button>
+        <!-- </a> -->
+      </div>
+    </section>
+    <section class="partner-section">
+      <div class="text-container">
+        <h3>Partner</h3>
+        <hr />
+      </div>
+      <ul class="list-partner">
+        <li id="moz">Mozilla</li>
+        <li>Google</li>
+        <li id="moz">NAVER</li>
+        <li>daumkakao</li>
+        <li>airbnb</li>
+      </ul>
+    </section>
+    <footer>
+      <div class="logo">
+        <a id="logo" href="index.html">JS<span id="logoSpan">Camp</span></a>
+      </div>
+      <span id="footerText">2023 @Kampala | Uganda</span>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
