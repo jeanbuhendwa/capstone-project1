@@ -544,3 +544,282 @@ footer .logo #logo #logoSpan,
   font-weight: 700;
   color: #ec5242;
 }
+
+@media screen and (min-width: 768px) {
+  /* This styles the nav menu for desktop version */
+  .links-bar {
+    display: block;
+    background: #272a31;
+  }
+
+  .links-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 100px;
+    list-style: none;
+  }
+
+  .links-bar ul li a {
+    color: #d3d3d3;
+    font-size: 12px;
+  }
+
+  #nav-menu {
+    padding: 20px 120px;
+    background: #fff;
+    box-shadow: 0 4px 2px -2px rgba(77, 77, 77, 0.295);
+
+    /* position: sticky; */
+  }
+
+  .about-camp-logo .logo {
+    width: 50%;
+  }
+
+  #nav-menu .logo {
+    display: block;
+  }
+
+  #nav-menu .logo #logo {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 900;
+    color: #272a31;
+  }
+
+  #nav-menu .logo #logo #logoSpan {
+    font-weight: 700;
+    color: #ec5242;
+  }
+
+  #nav-menu .list-menu {
+    display: flex;
+    align-items: center;
+    position: static;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .program-section .join-link-container a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #nav-menu .list-menu .menu-item a {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #272a31;
+  }
+
+  #nav-menu .list-menu .join-btn a {
+    display: block;
+    border: 2px solid #ec5242;
+    color: red;
+    padding: 0 15px;
+  }
+
+  #nav-menu .list-menu .button-close {
+    display: none;
+  }
+
+  #nav-menu .menu-btn {
+    display: none;
+  }
+
+  /* This styles the headline section in the desktop vesion */
+  .headline-section {
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 120px;
+  }
+
+  .headline-section #hello-text {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44px;
+  }
+
+  .headline-section .h1-text {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 2px;
+    width: 60%;
+    margin: 15px 0;
+  }
+
+  .headline-about {
+    padding: 40px 200px;
+  }
+
+  .headline-about .h1-text {
+    width: 100%;
+  }
+
+  .headline-about .email-contact,
+  .headline-about .h-address {
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-camp-logo {
+    position: relative;
+    top: 120px;
+    padding: 40px 280px;
+  }
+
+  .past-camp-section {
+    position: relative;
+    top: 120px;
+    padding: 40px 200px;
+  }
+
+  .past-camp-section .camps-container {
+    flex-direction: row;
+  }
+
+  .headline-section .headline-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .headline-section .headline-date {
+    color: #272a31;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+  }
+
+  .headline-section .h-address {
+    font-weight: 400;
+  }
+
+  /* This styles the program section */
+  .program-section {
+    top: 120px;
+    padding: 50px 120px;
+  }
+
+  .program-section .text-container h3 {
+    font-size: 44px;
+  }
+
+  .program-section .program-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .program-section .program-container .program-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    gap: 15px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .program-section .program-container .program-list:hover {
+    /* border: 2px solid #d3d3d3bc; */
+    box-shadow: 0 1px 8px #fff;
+    cursor: pointer;
+  }
+
+  .program-section .program-container .program-list img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .program-section .program-container .program-list h4 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .program-section .program-container .program-list p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .program-section .join-btn-container {
+    display: none;
+  }
+
+  .program-section .join-link-container {
+    display: block;
+    margin: 50px;
+  }
+
+  /* This styles the speaker section */
+  .speaker-section {
+    position: relative;
+    top: 120px;
+    padding: 40px 120px 60px;
+  }
+
+  .speaker-section .speaker-grid {
+    display: none;
+  }
+
+  .speaker-section .speaker-grid-desk {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0 20px;
+  }
+
+  .speaker-section .speaker-container {
+    padding: 10px;
+    box-shadow: 0 1px 8px #272a312c;
+  }
+
+  .speaker-section .speaker-container .img-container {
+    background-size: 100px 100px;
+  }
+
+  .speaker-section .text-container .speaker-desc {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+  .speaker-section .more-btn-container {
+    display: none;
+  }
+
+  /* This styles the partner section */
+  .partner-section {
+    position: relative;
+    top: 120px;
+    gap: 10px;
+  }
+
+  /* This styles the footer section */
+  footer {
+    position: relative;
+    top: 120px;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  footer #footerText {
+    font-size: 12px;
+    border-left: 3px solid #ec5242;
+    padding: 10px;
+  }
+}
