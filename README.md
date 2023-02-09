@@ -111,6 +111,8 @@ If you like this project don't hesitate to leave a star
 
 I would like to thank microverse of the good resources they provided in this program
 
+I would like also to thank [Cindy Shin](https://www.behance.net/adagio07) for providing this nice UI in this project
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
