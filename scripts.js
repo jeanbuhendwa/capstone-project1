@@ -21,6 +21,7 @@ closeMenu.addEventListener('click', hideMenu);
 
 // The block below generate speakers dynamically
 const speakers = document.getElementById('speaker-container');
+const speakerDesk = document.getElementById('desk-speaker');
 const btnLoad = document.getElementById('loadBtn');
 
 const speakerArr = [
@@ -97,4 +98,22 @@ function loadMore() {
   }
   currentSpeaker += maxSpeaker;
 }
+
+function loadDesk() {
+  for (let i = 0; i < speakerArr.length; i += 1) {
+    speakerDesk.innerHTML += `<div class="speaker-container">
+            <div class="img-container">
+                <img src="${speakerArr[i].speakerImg}" alt="Profile image">
+            </div>
+            <div class="text-container">
+                <h4>${speakerArr[i].speakerName}</h4>
+                <span class="speaker-info">${speakerArr[i].speakerInfo}</span>
+                <hr id="hr-speaker">
+                <p class="speaker-desc">${speakerArr[i].speakerDescription}</p>
+            </div>
+        </div>`;
+  }
+}
+
 loadMore();
+loadDesk();
