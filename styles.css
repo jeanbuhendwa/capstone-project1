@@ -586,6 +586,17 @@ footer .logo #logo #logoSpan,
     display: block;
   }
 
+  footer #footerText {
+    font-size: 12px;
+    border-left: 3px solid #ec5242;
+    padding: 10px;
+  }
+
+  .about-footer #footerText,
+  .about-footer .logo #logo {
+    color: #d3d3d3;
+  }
+
   #nav-menu .logo #logo {
     font-size: 32px;
     line-height: 44px;
@@ -821,18 +832,7 @@ footer .logo #logo #logoSpan,
     gap: 30px;
   }
 
-  footer #footerText {
-    font-size: 12px;
-    border-left: 3px solid #ec5242;
-    padding: 10px;
-  }
-
   .about-footer {
     background-color: #424347;
-  }
-  
-  .about-footer #footerText,
-  .about-footer .logo #logo {
-    color: #d3d3d3;
   }
 }
