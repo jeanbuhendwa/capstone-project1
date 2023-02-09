@@ -413,6 +413,10 @@ header {
   font-size: 36px;
 }
 
+.speaker-section .speaker-grid-desk {
+  display: none;
+}
+
 .speaker-section .speaker-grid {
   display: grid;
   grid-template-columns: 100%;
