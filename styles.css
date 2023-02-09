@@ -549,6 +549,15 @@ footer .logo #logo #logoSpan,
   color: #ec5242;
 }
 
+.about-footer {
+  background-color: #424347;
+}
+
+.about-footer #footerText,
+.about-footer .logo #logo {
+  color: #d3d3d3;
+}
+
 @media screen and (min-width: 768px) {
   /* This styles the nav menu for desktop version */
   .links-bar {
