@@ -824,6 +824,10 @@ footer .logo #logo #logoSpan,
     gap: 10px;
   }
 
+  .partner-desk-hide {
+    display: none;
+  }
+
   /* This styles the footer section */
   footer {
     position: relative;
