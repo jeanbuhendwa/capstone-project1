@@ -1,7 +1,6 @@
 const openMenu = document.getElementById('menu-btn');
 const closeMenu = document.getElementById('close-btn');
 const navMenu = document.querySelector('.list-menu');
-// const menuItem = document.querySelectorAll('.menu-item');
 
 function showMenu() {
   navMenu.style.display = 'block';
