@@ -14,10 +14,6 @@ function hideMenu() {
 openMenu.addEventListener('click', showMenu);
 closeMenu.addEventListener('click', hideMenu);
 
-// for (let i = 1; i <= menuItem.length; i++){
-//     menuItem[i].addEventListener('click', hideMenu);
-// }
-
 // The block below generate speakers dynamically
 const speakers = document.getElementById('speaker-container');
 const speakerDesk = document.getElementById('desk-speaker');
